@@ -1,0 +1,64 @@
+/*html {
+  position: relative;
+  min-height: 100%;
+}*/
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-width: 320px;
+}
+
+#error {
+	text-align: center;
+	margin: 2em 0 0 2em;
+	font-size: 1.5em;
+}
+
+#error a {
+	text-decoration: underline;
+	color: #328CBF
+}
+
+#city {
+  margin-top: 5%;
+  font-size: 3em;
+}
+
+#temperature {
+  font-size: 2.5em;
+}
+
+#condition,
+#wind-speed {
+  display: inline-block;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #333333;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  padding: 1.3em;
+  margin: .5em;
+  background-color: rgba(147, 175, 196, .4);
+  min-width: 10em;
+  min-height: 6em;
+}
+
+.wi {
+  font-size: 2em;
+}
+
+#spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
